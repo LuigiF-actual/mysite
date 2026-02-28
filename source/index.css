@@ -1,3 +1,26 @@
-header{
+body{
     border: 3px solid black;
+    border-radius: 10px;
+    background-color: burlywood;
+    min-height: 800px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto 1em;  
+    align-items: center;
+    border-bottom: 3px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: wheat;
+    padding: 10px 20px;
+}
+
+#Clock {
+    border: 3px solid black;
+    justify-self: start;  
+}
+
+header h1 {  
+    justify-self: center;  
 }
